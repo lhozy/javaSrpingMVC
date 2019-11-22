@@ -22,6 +22,7 @@ public class UserController {
         return "success";
 
     }
+
     @RequestMapping("/testUser")
     public String testUser(){
         System.out.println("testUser............");
