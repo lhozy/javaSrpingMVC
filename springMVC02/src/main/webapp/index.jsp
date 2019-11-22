@@ -14,8 +14,24 @@
         // 页面加载，绑定单击事件
         $(function () {
             $("#btn").click(function(){
-                alert("hello");
+                // alert("hello");
+                $.ajax({
+                    url:"user/testAjax",
+                    contentType:"application/json;charset=UTF-8",
+                    data:'{"userName":"hehe","password":"123","age":30}',
+                    dataType:"json",
+                    type:"post",
+                    success:function(data){
+                        // data服务器端响应的json的数据，进行解析
+                        alert("响应返回对象");
+                        alert(data);
+                        alert(data.userName);
+                        alert(data.password);
+                        alert(data.age);
+                    }
+                });
             });
+
         });
 
 

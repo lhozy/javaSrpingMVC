@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="springMVC02:war exploded">
-    <output-path>$PROJECT_DIR$/../springMVC02/target/springMVC02</output-path>
+  <artifact type="exploded-war" name="springMVC_Upload:war exploded">
+    <output-path>$PROJECT_DIR$/../springMVC_Upload/target/springMVC_Upload</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="springMVC02" />
+          <element id="module-output" name="springMVC_Upload" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.2.RELEASE" />
@@ -18,12 +18,16 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.18.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-client:1.18.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/../springMVC02/target/springMVC02/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/../springMVC_Upload/target/springMVC_Upload/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="springMVC02/web/Web" />
+      <element id="javaee-facet-resources" facet="springMVC_Upload/web/Web" />
     </root>
   </artifact>
 </component>

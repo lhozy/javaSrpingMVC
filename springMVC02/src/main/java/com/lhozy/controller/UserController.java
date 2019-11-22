@@ -3,7 +3,9 @@ package com.lhozy.controller;
 import com.lhozy.domain.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.ServletException;
@@ -55,5 +57,13 @@ public class UserController {
         modelAndView.addObject("user",user);
         modelAndView.setViewName("success");//转发的页面
         return modelAndView;
+    }
+    @RequestMapping("/testAjax")
+    public @ResponseBody User testAjax(@RequestBody User user){
+        System.out.println("testAjax----------");
+        System.out.println(user);
+        user.setUserName("zhaoliu");
+        user.setAge(18);
+        return user;
     }
 }
