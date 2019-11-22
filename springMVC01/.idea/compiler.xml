@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springMVC01" />
         <module name="springMVC02" />
+        <module name="springMVC_Intercepor_02" />
         <module name="springMVC_Upload" />
         <module name="uploadFileServer" />
       </profile>
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="springMVC01" target="1.8" />
       <module name="springMVC02" target="1.8" />
+      <module name="springMVC_Intercepor_02" target="1.8" />
       <module name="springMVC_Upload" target="1.8" />
       <module name="uploadFileServer" target="1.7" />
     </bytecodeTargetLevel>

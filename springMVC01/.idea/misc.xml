@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
     <file type="web" url="file://$PROJECT_DIR$/../springMVC02" />
+    <file type="web" url="file://$PROJECT_DIR$/../springMVC_Intercepor_02" />
     <file type="web" url="file://$PROJECT_DIR$/../springMVC_Upload" />
     <file type="web" url="file://$PROJECT_DIR$/../uploadFileServer" />
   </component>
@@ -13,6 +14,7 @@
         <option value="$PROJECT_DIR$/../springMVC02/pom.xml" />
         <option value="$PROJECT_DIR$/../springMVC_Upload/pom.xml" />
         <option value="$PROJECT_DIR$/../uploadFileServer/pom.xml" />
+        <option value="$PROJECT_DIR$/../springMVC_Intercepor_02/pom.xml" />
       </list>
     </option>
   </component>
